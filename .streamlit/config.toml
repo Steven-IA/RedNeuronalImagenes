@@ -1,0 +1,50 @@
+# Tema "Selva" de OmniVision AI — verde bosque, oliva, musgo, arena y ámbar.
+# Los tokens de color/tipografía viven aquí; el CSS de app.py solo añade
+# tarjetas, texturas y microinteracciones compatibles con Streamlit.
+
+[theme]
+base = "dark"
+primaryColor = "#c9962e"          # ámbar dorado (botones, foco, enlaces)
+backgroundColor = "#0e1a12"       # verde bosque muy oscuro
+secondaryBackgroundColor = "#16251a"  # musgo oscuro (widgets, tarjetas)
+textColor = "#eae6d8"             # blanco cálido / arena
+linkColor = "#d9b04a"
+codeTextColor = "#eae6d8"
+codeBackgroundColor = "#121f14"
+borderColor = "#2c3f2e"
+dataframeBorderColor = "#2c3f2e"
+dataframeHeaderBackgroundColor = "#1c3020"
+dataframeHeaderTextColor = "#f0e9d2"
+
+redColor = "#c25b4e"
+orangeColor = "#c9873a"
+yellowColor = "#d9a441"
+greenColor = "#7fa650"
+blueColor = "#6f98a3"
+violetColor = "#9a86b8"
+grayColor = "#8f9c8f"
+
+baseRadius = "12px"
+buttonRadius = "10px"
+showWidgetBorder = true
+showSidebarBorder = true
+
+baseFontSize = 15
+baseFontWeight = 400
+headingFont = "Fraunces:https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+headingFontSizes = ["38px", "26px", "20px", "17px", "15px", "13px"]
+headingFontWeights = [700, 600, 600, 600, 500, 500]
+linkUnderline = false
+
+# Paleta natural para gráficas (Vega/Altair de st.bar_chart)
+chartCategoricalColors = ["#d9a441", "#7fa650", "#a8b86a", "#c9873a", "#6f98a3",
+                          "#9a86b8", "#8f9c8f", "#b98a2e"]
+
+[theme.sidebar]
+backgroundColor = "#0b1510"
+secondaryBackgroundColor = "#132016"
+textColor = "#eae6d8"
+borderColor = "#243527"
+primaryColor = "#c9962e"
+codeBackgroundColor = "#0f1a12"
